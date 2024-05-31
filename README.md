@@ -30,21 +30,21 @@ For building and running the application you need:
 
 ### Installation
 ``` bash
-$ git clone https://github.com/Voluntain-SKKU/Voluntain-2nd.git
-$ cd Voluntain-2nd
+$ 
+$ 
 ```
 #### Backend
 ```
-$ cd strapi-backend
-$ nvm use v.14.19.3
-$ npm install
-$ npm run develop
+$ 
+$ 
+$ 
+$ 
 ```
 
 #### Frontend
 ```
-$ cd voluntain-app
-$ nvm use v.14.19.3
-$ npm install 
-$ npm run dev
+$ 
+$ 
+$ 
+$ 
 ```
