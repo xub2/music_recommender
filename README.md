@@ -14,4 +14,37 @@
 - 내가 좋아하는 가수를 입력하면 노래를 추천 받을 수 있는 어플을 개발 해보고 싶었음.
 - 개인이 할 수 있는 난이도의 프론트 + 백엔드 작업을 직접 학습해 볼 수 있는 프로젝트라 생각되어 선택하게 되었음.
 
+## 프로젝트 소개
 
+FLutter의 dart 언어와 Spotify API 를 이용하여 검색한 가수와 유사한 장르의 음악을 추천 받을 수 있는 App 입니다.
+
+>UI -> dart
+>Backend -> python
+
+## 시작 가이드
+### Requirements
+For building and running the application you need:
+
+- [Flutter](https://docs.flutter.dev/)
+- [Spotify api](https://developer.spotify.com/)
+
+### Installation
+``` bash
+$ git clone https://github.com/Voluntain-SKKU/Voluntain-2nd.git
+$ cd Voluntain-2nd
+```
+#### Backend
+```
+$ cd strapi-backend
+$ nvm use v.14.19.3
+$ npm install
+$ npm run develop
+```
+
+#### Frontend
+```
+$ cd voluntain-app
+$ nvm use v.14.19.3
+$ npm install 
+$ npm run dev
+```
