@@ -67,7 +67,7 @@ class _MusicRecommendationScreenState extends State<MusicRecommendationScreen> {
                       style: const TextStyle(color: Colors.white),
                       decoration: const InputDecoration(
                           border: InputBorder.none,
-                          hintText: "아티스트 명",
+                          hintText: "음악 또는 아티스트 명",
                           hintStyle: TextStyle(
                               color: Colors.white54,
                               fontWeight: FontWeight.w500)),
