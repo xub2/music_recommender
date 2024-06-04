@@ -1,16 +1,49 @@
-# music_recommender
+# Music-Recommendation by Spotify
+<p align="center">
+<img src = "https://github.com/xub2/music_recommender/assets/104479096/cb8d4084-5214-4135-bc61-e52e74424d8b" width="30%" height="30%">
+</p>
 
-A new Flutter project.
+# 개발 기간
+> 2024.03 ~ 2024.05
 
-## Getting Started
+# 🤔개발 목적
 
-This project is a starting point for a Flutter application.
+**내가 좋아 하는 가수의 비슷한 노래를 추천 받아 볼 수 없을까? 라는 생각에서 프로젝트를 계획**
 
-A few resources to get you started if this is your first Flutter project:
+- 저번 학기 DB응용 수업에서 감정 분석을 통한 음악 추천에서 파생된 주제.
+- 내가 좋아하는 가수를 입력하면 노래를 추천 받을 수 있는 어플을 개발 해보고 싶었음.
+- 개인이 할 수 있는 난이도의 프론트 + 백엔드 작업을 직접 학습해 볼 수 있는 프로젝트라 생각되어 선택하게 되었음.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 프로젝트 소개
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+FLutter의 dart 언어와 Spotify API 를 이용하여 검색한 가수와 유사한 장르의 음악을 추천 받을 수 있는 App 입니다.
+
+> App의 UI는 dart, backend 는 python 으로 구성
+
+## 시작 가이드
+### Requirements
+For building and running the application you need:
+
+- [Flutter](https://docs.flutter.dev/)
+- [Spotify api](https://developer.spotify.com/)
+
+### Installation
+``` bash
+$ 
+$ 
+```
+#### Backend
+```
+$ 
+$ 
+$ 
+$ 
+```
+
+#### Frontend
+```
+$ 
+$ 
+$ 
+$ 
+```
