@@ -50,7 +50,6 @@ Flutter 설치 및 Spotify API 발급 필수
   <tr>
     <td><img src="https://github.com/xub2/music_recommender/assets/104479096/8f4739fe-c7b1-4b65-bbcc-bae03f4d9738" width="200" style="margin: 5px;"></td>
     <td><img src="https://github.com/xub2/music_recommender/assets/104479096/e8cda8cc-aa72-4761-a725-d77934d6a466" width="200" style="margin: 5px;"></td>
-    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/8fc74f8a-0581-4ebb-b42f-e314c958a81a" width="200" style="margin: 5px;"></td>
   </tr>
 </table>
 
