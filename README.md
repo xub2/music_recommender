@@ -15,6 +15,10 @@
 - 개인이 할 수 있는 난이도의 프론트 + 백엔드 작업을 직접 학습해 볼 수 있는 프로젝트라 생각되어 선택하게 되었음.
 
 ## DEV TOOLS
+![213](https://github.com/xub2/music_recommender/assets/104479096/54c956fe-1cae-4a61-98b6-5b329e6de42b)
+<img width="256" alt="pngwing com (2)" src="https://github.com/xub2/music_recommender/assets/104479096/75f344fd-1a22-4f40-b4b9-6a5d342c9f20">
+![Untitled](https://github.com/xub2/music_recommender/assets/104479096/1a47ed85-2b73-4707-8861-bc3a4def0ca4)
+![Untitled33](https://github.com/xub2/music_recommender/assets/104479096/723be298-5d53-4b49-8fb5-ee374830aa2f)
 
 
 ## 프로젝트 소개
