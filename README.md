@@ -22,13 +22,10 @@ FLutter의 dart 언어와 Spotify API 를 이용하여 검색한 가수와 유�
 - 내가 좋아하는 가수를 입력하면 노래를 추천 받을 수 있는 어플을 개발 해보고 싶었음.
 - 개인이 할 수 있는 난이도의 프론트 + 백엔드 작업을 직접 학습해 볼 수 있는 프로젝트라 생각되어 선택하게 되었음.
 
-## DEV TOOLS
-<p align="left">
-  <img src="https://github.com/xub2/music_recommender/assets/104479096/54c956fe-1cae-4a61-98b6-5b329e6de42b" width="100" height="100" style="margin: 5px;">
-  <img src="https://github.com/xub2/music_recommender/assets/104479096/75f344fd-1a22-4f40-b4b9-6a5d342c9f20" width="100" height="100" style="margin: 5px;">
-  <img src="https://github.com/xub2/music_recommender/assets/104479096/1a47ed85-2b73-4707-8861-bc3a4def0ca4" width="100" height="100" style="margin: 5px;">
-  <img src="https://github.com/xub2/music_recommender/assets/104479096/723be298-5d53-4b49-8fb5-ee374830aa2f" width="100" height="100" style="margin: 5px;">
-</p>
+## 📚 Tech Stack
+
+<img src="https://img.shields.io/badge/dart-3578E5?style=for-the-badge&logo=dart&logoColor=white"/> <img src="https://img.shields.io/badge/python-3178C6?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-06B6D4?style=for-the-badge&logo=Flutter&logoColor=white"/> <img src="https://img.shields.io/badge/postman-ec6017?style=for-the-badge&logo=postman&logoColor=white"/>
+
 
 
 
