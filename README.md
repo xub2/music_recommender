@@ -36,23 +36,26 @@ Flutter 설치 및 Spotify API 발급 필수
 - [Flutter](https://docs.flutter.dev/)
 - [Spotify api](https://developer.spotify.com/)
 
-### Installation
-``` bash
-$ 
-$ 
-```
-#### Backend
-```
-$ 
-$ 
-$ 
-$ 
-```
+## Spotify API 작동 원리
+![Untitled 4](https://github.com/xub2/music_recommender/assets/104479096/e896c6cf-78e9-48e2-a310-e977e5b1f0ad)
 
-#### Frontend
-```
-$ 
-$ 
-$ 
-$ 
-```
+## 실행 결과
+<table>
+  <tr>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/81f0b1bd-a515-4a78-8649-dc139c86c4d5" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/100bb2d6-9815-4665-bdcc-87f87590ad00" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/012894f5-cc3e-432f-86a1-a153f2b136d2" width="200" style="margin: 5px;"></td>
+    
+  </tr>
+  <tr>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/8f4739fe-c7b1-4b65-bbcc-bae03f4d9738" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/e8cda8cc-aa72-4761-a725-d77934d6a466" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/8fc74f8a-0581-4ebb-b42f-e314c958a81a" width="200" style="margin: 5px;"></td>
+  </tr>
+</table>
+
+
+
+
+
+
