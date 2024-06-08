@@ -55,11 +55,13 @@ class HomePage extends StatelessWidget {
                 launchUrl(Uri.parse('https://open.spotify.com/'));
               },
               style: ElevatedButton.styleFrom(
-                padding: EdgeInsets.symmetric(horizontal: 100, vertical: 16),
+                padding: EdgeInsets.symmetric(horizontal: 50, vertical: 16),
                 textStyle: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                foregroundColor: Colors.green,
+                foregroundColor: Color(0xff19093C),
+                backgroundColor: Colors.white,
+                minimumSize: Size(300, 60),  // 버튼 최소 크기 설정
               ),
-              child: Text('🎵 Spotify'),
+              child: Text('Spotify'),
             ),
             SizedBox(height: 20),  // 버튼 사이에 간격 추가
             ElevatedButton(
@@ -71,11 +73,13 @@ class HomePage extends StatelessWidget {
                 );
               },
               style: ElevatedButton.styleFrom(
-                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),  // 버튼 크기 조정
+                padding: EdgeInsets.symmetric(horizontal: 50, vertical: 16),  // 버튼 크기 조정
                 textStyle: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),  // 텍스트 스타일
                 foregroundColor: Color(0xff19093C),  // 폰트 색상 설정
+                backgroundColor: Colors.white,
+                minimumSize: Size(300, 60),  // 버튼 최소 크기 설정
               ),
-              child: Text('🔍 음악 추천을 받아볼까요?'),
+              child: Text('음악 추천 받기'),
             ),
             SizedBox(height: 20),  // 버튼 사이에 간격 추가
             Row(
@@ -83,27 +87,32 @@ class HomePage extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    SystemNavigator.pop();
-                  },
-                  style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.symmetric(horizontal: 30, vertical: 16),  // 버튼 크기 반으로 조정
-                    textStyle: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),  // 텍스트 스타일
-                    foregroundColor: Colors.red,  // 폰트 색상 설정
-                  ),
-                  child: Text('🚪 나가기'),
-                ),
-                SizedBox(width: 10),  // 버튼 사이의 간격 추가
-                ElevatedButton(
-                  onPressed: () {
                     launchUrl(Uri.parse('https://xuv2.notion.site/Music-Recommendation-by-Spotify-336c0ed599eb458496e06c4275a68d2b'));
                   },
                   style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.symmetric(horizontal: 30, vertical: 18),  // 버튼 크기 반으로 조정
+                    padding: EdgeInsets.symmetric(horizontal: 50, vertical: 16),  // 버튼 크기 조정
                     textStyle: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),  // 텍스트 스타일
-                    foregroundColor: Colors.blue,  // 폰트 색상 설정
+                    foregroundColor: Color(0xff19093C),  // 폰트 색상 설정
+                    backgroundColor: Colors.white,
+                    minimumSize: Size(145, 60),  // 버튼 최소 크기 설정
                   ),
-                  child: Text('🌐 Notion'),
+                  child: Text('Notion'),
                 ),
+                SizedBox(width: 10),
+                ElevatedButton(
+                  onPressed: () {
+                    SystemNavigator.pop();
+                  },
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(horizontal: 50, vertical: 16),  // 버튼 크기 조정
+                    textStyle: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),  // 텍스트 스타일
+                    foregroundColor: Colors.red,  // 폰트 색상 설정
+                    backgroundColor: Colors.white,
+                    minimumSize: Size(145, 60),  // 버튼 최소 크기 설정
+                  ),
+                  child: Text('나가기'),
+                ),
+                // 버튼 사이의 간격 추가
               ],
             ),
             SizedBox(height: 220),  // 버튼을 중앙보다 아래로 보내기 위해 추가한 공간
