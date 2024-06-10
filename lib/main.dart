@@ -41,15 +41,15 @@ class HomePage extends StatelessWidget {
               child: Text(
                 'Music\nRecommender',
                 textAlign: TextAlign.center,
-                style: GoogleFonts.lobster(
+                style: GoogleFonts.rubikMonoOne(
                   textStyle: TextStyle(
-                    fontSize: 65,
+                    fontSize: 41,
                     color: Colors.white,
                   ),
                 ),
               ),
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 60),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(18.0),
                     ),
                     padding: EdgeInsets.all(0),
-                    fixedSize: Size(150, 150),
+                    fixedSize: Size(130, 130),
                   ),
                   child: Stack(
                     children: [
@@ -108,7 +108,7 @@ class HomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(18.0),
                     ),
                     padding: EdgeInsets.all(0),
-                    fixedSize: Size(150, 150),
+                    fixedSize: Size(130, 130),
                   ),
                   child: Stack(
                     children: [
@@ -117,8 +117,7 @@ class HomePage extends StatelessWidget {
                         child: Image.asset(
                           'assets/images/Search.png',
                           fit: BoxFit.cover,
-                          width: 150,
-                          height: 150,
+                          width: 130, height: 130,
                         ),
                       ),
                       Positioned(
@@ -156,7 +155,7 @@ class HomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(18.0),
                     ),
                     padding: EdgeInsets.all(0),
-                    fixedSize: Size(150, 150),
+                    fixedSize: Size(130, 130),
                   ),
                   child: Stack(
                     children: [
@@ -199,14 +198,14 @@ class HomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(18.0),
                     ),
                     padding: EdgeInsets.all(0),
-                    fixedSize: Size(150, 150),
+                    fixedSize: Size(130, 130),
                   ),
                   child: Stack(
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(18.0),
                         child: Image.asset(
-                          'assets/images/Exit.png',
+                          'assets/images/Exit1.png',
                           fit: BoxFit.cover,
                           width: 150,
                           height: 150,
