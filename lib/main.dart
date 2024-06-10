@@ -64,14 +64,35 @@ class HomePage extends StatelessWidget {
                     padding: EdgeInsets.all(0),
                     fixedSize: Size(150, 150),
                   ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(18.0),
-                    child: Image.asset(
-                      'assets/images/Spotify.png',
-                      fit: BoxFit.cover,
-                      width: 150,
-                      height: 150,
-                    ),
+                  child: Stack(
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(18.0),
+                        child: Image.asset(
+                          'assets/images/Spotify.png',
+                          fit: BoxFit.cover,
+                          width: 150,
+                          height: 150,
+                        ),
+                      ),
+                      Positioned(
+                        bottom: 5,
+                        left: 5,
+                        right: 5,
+                        child: Container(
+                          color: Colors.white,
+                          padding: EdgeInsets.symmetric(vertical: 2.0),
+                          child: Text(
+                            'Spotify',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color(0xff19093C),
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 SizedBox(width: 20),
@@ -89,14 +110,35 @@ class HomePage extends StatelessWidget {
                     padding: EdgeInsets.all(0),
                     fixedSize: Size(150, 150),
                   ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(18.0),
-                    child: Image.asset(
-                      'assets/images/Search.png',
-                      fit: BoxFit.cover,
-                      width: 150,
-                      height: 150,
-                    ),
+                  child: Stack(
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(18.0),
+                        child: Image.asset(
+                          'assets/images/Search.png',
+                          fit: BoxFit.cover,
+                          width: 150,
+                          height: 150,
+                        ),
+                      ),
+                      Positioned(
+                        bottom: 5,
+                        left: 5,
+                        right: 5,
+                        child: Container(
+                          color: Colors.white,
+                          padding: EdgeInsets.symmetric(vertical: 2.0),
+                          child: Text(
+                            'Search',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color(0xff19093C),
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
@@ -116,14 +158,35 @@ class HomePage extends StatelessWidget {
                     padding: EdgeInsets.all(0),
                     fixedSize: Size(150, 150),
                   ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(18.0),
-                    child: Image.asset(
-                      'assets/images/notion.png',
-                      fit: BoxFit.cover,
-                      width: 150,
-                      height: 150,
-                    ),
+                  child: Stack(
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(18.0),
+                        child: Image.asset(
+                          'assets/images/notion.png',
+                          fit: BoxFit.cover,
+                          width: 150,
+                          height: 150,
+                        ),
+                      ),
+                      Positioned(
+                        bottom: 5,
+                        left: 5,
+                        right: 5,
+                        child: Container(
+                          color: Colors.white,
+                          padding: EdgeInsets.symmetric(vertical: 2.0),
+                          child: Text(
+                            'Notion',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color(0xff19093C),
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 SizedBox(width: 20),
@@ -138,14 +201,35 @@ class HomePage extends StatelessWidget {
                     padding: EdgeInsets.all(0),
                     fixedSize: Size(150, 150),
                   ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(18.0),
-                    child: Image.asset(
-                      'assets/images/Exit.png',
-                      fit: BoxFit.cover,
-                      width: 150,
-                      height: 150,
-                    ),
+                  child: Stack(
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(18.0),
+                        child: Image.asset(
+                          'assets/images/Exit.png',
+                          fit: BoxFit.cover,
+                          width: 150,
+                          height: 150,
+                        ),
+                      ),
+                      Positioned(
+                        bottom: 5,
+                        left: 5,
+                        right: 5,
+                        child: Container(
+                          color: Colors.white,
+                          padding: EdgeInsets.symmetric(vertical: 2.0),
+                          child: Text(
+                            'Exit',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color(0xff19093C),
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
