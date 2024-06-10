@@ -44,6 +44,7 @@ class HomePage extends StatelessWidget {
                 style: GoogleFonts.rubikMonoOne(
                   textStyle: TextStyle(
                     fontSize: 41,
+                    fontWeight: FontWeight.normal,
                     color: Colors.white,
                   ),
                 ),
