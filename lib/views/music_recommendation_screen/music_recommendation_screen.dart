@@ -1,6 +1,4 @@
-import 'package:chips_choice/chips_choice.dart';
 import 'package:flutter/material.dart';
-import 'package:music_recommender/constants.dart';
 import 'package:music_recommender/models/music.dart';
 import 'package:music_recommender/views/music_recommendation_screen/music_recommender.dart';
 
@@ -95,26 +93,6 @@ class _MusicRecommendationScreenState extends State<MusicRecommendationScreen> {
             const SizedBox(
               height: 16,
             ),
-            ChipsChoice<String>.multiple(
-              value: selectedGenres,
-              choiceCheckmark: true,
-              choiceStyle: C2ChipStyle.outlined(
-                foregroundStyle: const TextStyle(color: Colors.white54),
-                selectedStyle: const C2ChipStyle(
-                  borderColor: Colors.white,
-                  foregroundColor: Colors.white,
-                ),
-              ),
-              onChanged: (val) => setState(() => selectedGenres = val),
-              choiceItems: C2Choice.listFrom<String, String>(
-                source: genres,
-                value: (i, v) => v,
-                label: (i, v) => v,
-              ),
-            ),
-            const SizedBox(
-              height: 16,
-            ),
             if (musicList.isNotEmpty)
               Expanded(
                 child: ListView.builder(
@@ -133,13 +111,13 @@ class _MusicRecommendationScreenState extends State<MusicRecommendationScreen> {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Icon(
-                        isSearched ? Icons.warning_amber : Icons.search,
+                        isSearched ? Icons.refresh : Icons.search,
                         color: Colors.white,
                         size: MediaQuery.of(context).size.width * 0.3,
                       ),
                       Text(
                         isSearched
-                            ? '발견된 정보 없음'
+                            ? '유사 음악 검색 중'
                             : '좋아하는 아티스트명을 입력해주세요',
                         textAlign: TextAlign.center,
                         style: Theme.of(context)

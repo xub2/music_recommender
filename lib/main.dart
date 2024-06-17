@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'views/music_recommendation_screen/music_recommendation_screen.dart';
+import 'view_2/music_player.dart';
 import 'package:flutter/services.dart';
 
 void main() {
@@ -39,11 +40,11 @@ class HomePage extends StatelessWidget {
             Container(
               alignment: Alignment.center,
               child: Text(
-                'Music\nRecommender',
+                'My\nSpotify',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.rubikMonoOne(
                   textStyle: TextStyle(
-                    fontSize: 41,
+                    fontSize: 60,
                     fontWeight: FontWeight.normal,
                     color: Colors.white,
                   ),
@@ -56,7 +57,10 @@ class HomePage extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    launchUrl(Uri.parse('https://open.spotify.com/'));
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => MusicPlayer()),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -70,7 +74,7 @@ class HomePage extends StatelessWidget {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(18.0),
                         child: Image.asset(
-                          'assets/images/Spotify.png',
+                          'assets/images/play.png',
                           fit: BoxFit.cover,
                           width: 150,
                           height: 150,
@@ -84,7 +88,7 @@ class HomePage extends StatelessWidget {
                           color: Colors.white,
                           padding: EdgeInsets.symmetric(vertical: 2.0),
                           child: Text(
-                            'Spotify',
+                            'Player',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Color(0xff19093C),
@@ -118,7 +122,8 @@ class HomePage extends StatelessWidget {
                         child: Image.asset(
                           'assets/images/Search.png',
                           fit: BoxFit.cover,
-                          width: 130, height: 130,
+                          width: 130,
+                          height: 130,
                         ),
                       ),
                       Positioned(
@@ -149,7 +154,7 @@ class HomePage extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    launchUrl(Uri.parse('https://xuv2.notion.site/Music-Recommendation-by-Spotify-336c0ed599eb458496e06c4275a68d2b'));
+                    launchUrl(Uri.parse('https://open.spotify.com/'));
                   },
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -163,7 +168,7 @@ class HomePage extends StatelessWidget {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(18.0),
                         child: Image.asset(
-                          'assets/images/notion.png',
+                          'assets/images/Spotify.png',
                           fit: BoxFit.cover,
                           width: 150,
                           height: 150,
@@ -177,7 +182,7 @@ class HomePage extends StatelessWidget {
                           color: Colors.white,
                           padding: EdgeInsets.symmetric(vertical: 2.0),
                           child: Text(
-                            'Notion',
+                            'Spotify Web',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Color(0xff19093C),
