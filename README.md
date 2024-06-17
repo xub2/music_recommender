@@ -1,10 +1,10 @@
-# Music-Recommendation by Spotify
+# My Spotify by Spotify
 <p align="center">
 <img src = "https://github.com/xub2/music_recommender/assets/104479096/cb8d4084-5214-4135-bc61-e52e74424d8b" width="30%" height="30%">
 </p>
 
 # 개발 기간
-> 2024.03 ~ 2024.05
+> 2024.03 ~ 2024.06
 
 ## 참여 인원
 |<img src="https://avatars.githubusercontent.com/u/104479096?v=4" width="150" height="150"/>|
