@@ -13,7 +13,7 @@
 
 ## 프로젝트 소개
 
-FLutter의 dart 언어와 Spotify API 를 이용하여 검색한 가수와 유사한 장르의 음악을 추천 받을 수 있는 App 입니다.
+FLutter의 dart 언어와 Spotify API 를 이용하여 Music Player을 제공하며, 검색한 가수와 유사한 장르의 음악을 추천 받을 수 있는 App 입니다.
 
 > App의 UI는 dart, backend 는 python 으로 구성  
 > App Backend Pyhton Code: https://github.com/xub2/mucis_recommendation_backend.git 
