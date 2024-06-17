@@ -46,14 +46,15 @@ Flutter 설치 및 Spotify API 발급 필수
 ## 실행 결과
 <table>
   <tr>
-    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/81f0b1bd-a515-4a78-8649-dc139c86c4d5" width="200" style="margin: 5px;"></td>
-    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/100bb2d6-9815-4665-bdcc-87f87590ad00" width="200" style="margin: 5px;"></td>
-    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/012894f5-cc3e-432f-86a1-a153f2b136d2" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/878b9cc3-4dc7-4c9a-892a-d5fee19b0318" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/4802bdab-67be-42f0-9882-c344902da007" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/c3684ba3-9454-408a-a062-a6b2eb20577b" width="200" style="margin: 5px;"></td>
     
   </tr>
   <tr>
-    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/8f4739fe-c7b1-4b65-bbcc-bae03f4d9738" width="200" style="margin: 5px;"></td>
-    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/e8cda8cc-aa72-4761-a725-d77934d6a466" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/27312644-1554-46dc-afe1-a4a5c9b20509" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/ca70a5aa-1282-4621-bfe5-1d069b9788a5" width="200" style="margin: 5px;"></td>
+    <td><img src="https://github.com/xub2/music_recommender/assets/104479096/0f9ca8d5-2738-4cc1-b61e-3530a312db31" width="200" style="margin: 5px;"></td>
   </tr>
 </table>
 
