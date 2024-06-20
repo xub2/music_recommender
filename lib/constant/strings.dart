@@ -1,4 +1,4 @@
 class CustomStrings {
-  static const String clientId = '1343542818a348f290f24a729a8e19ff';
-  static const String clientSecret = '33e80efc30604e088e8eb82ace880fbc';
+  static const String clientId = '발급 받은 API ID';
+  static const String clientSecret = '발급 받은 API Secret';
 }
