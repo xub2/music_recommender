@@ -58,7 +58,7 @@ Flutter 설치 및 Spotify API 발급 필수
   </tr>
 </table>
 
-## App 실행 영상
+## App 실행 영상 링크
 https://youtu.be/Iva2gwUOikc
 
 
